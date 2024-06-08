@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+    />
+    <title>Snake Game</title>
+  </head>
+  <body>
+    <div>
+      <div class="scores">
+        <h1 id="score">000</h1>
+        <h1 id="highScore">000</h1>
+      </div>
+      <div class="game-border-1">
+        <div class="game-border-2">
+          <div class="game-border-3">
+            <div id="instruction-text">
+              <h3>Press spacebar to start the game</h3>
+              <h3>Press S for Settings</h3>
+            </div>
+            <div id="settings">
+              <h1>Settings</h1>
+              <div id="level">
+                <h3>Level</h3>
+                <div id="lvl-select">
+                  <div class="lvl-btn"></div>
+                  <h4>Easy</h4>
+                  <div id="active" class="lvl-btn"></div>
+                  <h4>Normal</h4>
+                  <div class="lvl-btn"></div>
+                  <h4>Hard</h4>
+                </div>
+              </div>
+            </div>
+            <div id="game-board"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="snake-game-ai-gen.png" alt="snake-logo" id="logo" />
+    <script src="script.js"></script>
+  </body>
+</html>
